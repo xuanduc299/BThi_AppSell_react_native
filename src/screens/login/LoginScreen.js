@@ -13,14 +13,13 @@ import {
 } from 'react-native';
 import MainButton from '../../components/MainButton';
 import MainInput from '../../components/MainInput';
-
 export default function LoginScreen({ navigation }) {
-  const [email, setemail] = useState('');
-  const [password, setpassword] = useState('');
+  const [email, setemail] = useState("");
+  const [password, setpassword] = useState("");
   const goToHome = () => {
-    if (email.trim() == '' || !email) {
+    if (email.trim() == "" || !email) {
       alert('Không được để trống email !');
-    } else if (password.trim() == '' || !password) {
+    } else if (password.trim() == "" || !password) {
       alert('Không được để trống mật khẩu !');
     } else {
       login();
@@ -60,7 +59,7 @@ export default function LoginScreen({ navigation }) {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
     >
-      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+      <TouchableWithoutFeedback >
         <View
           style={{
             flex: 1,
@@ -72,23 +71,12 @@ export default function LoginScreen({ navigation }) {
           <Image
             style={{
               alignSelf: 'center',
-              height: 100,
+              height: 400,
               resizeMode: 'contain',
-              width: 100,
+              width: 400,
             }}
-            source={require('../../../assets/Juice.png')}
+            source={require('../../../assets/StoreSport.png')}
           />
-          <Text
-            style={{
-              textAlign: 'center',
-              fontWeight: 'bold',
-              color: '#2FDBBC',
-              fontSize: 25,
-              marginBottom: 50,
-            }}
-          >
-            DrinkApp
-          </Text>
 
           <MainInput
             title={'Email'}
@@ -96,6 +84,7 @@ export default function LoginScreen({ navigation }) {
             value={email}
             onChangeText={setemail}
           />
+
           <MainInput
             placeholder={'Nhập mật khẩu'}
             title={'Mật khẩu'}

@@ -29,7 +29,7 @@ function ProductItem(props) {
         </Text>
         <View style={{ flexDirection: 'row' }}>
           <Text style={{ color: 'black', fontWeight: 'bold', flex: 1 }}>
-            {item?.price} đ
+            {item?.price} VND
           </Text>
         </View>
       </View>
@@ -41,7 +41,7 @@ export default ProductItem;
 
 const styles = StyleSheet.create({
   imageStyle: {
-    width: '100%',
+    width: 330,
     height: 150,
     borderRadius: 14,
   },

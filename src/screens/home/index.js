@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { useEffect, useState } from 'react';
-import { FlatList, ScrollView, StatusBar, Text, View, StyleSheet } from 'react-native';
+import { FlatList, ScrollView, StatusBar, Text, View, StyleSheet, TouchableOpacity, Button } from 'react-native';
 import ProductItem from '../../components/ProductItem';
 import { dummyData, dummyData2, dummyData3, dummyData4 } from '../../data/product';
 import styles from './styles';
@@ -11,6 +11,7 @@ import './style.css';
 
 export default function HomeScreen({ navigation }) {
   const [user, setuser] = useState(null);
+
   const renderItem = ({ item, index }) => {
     return <ProductItem item={item} index={index} navigation={navigation} />;
   };
@@ -31,7 +32,8 @@ export default function HomeScreen({ navigation }) {
         marginTop: StatusBar.currentHeight + 10,
       }}
     >
-      <View>
+
+      <View >
         <video id="video3"
           src={video3}
           autoPlay={"autoplay"}
@@ -44,11 +46,16 @@ export default function HomeScreen({ navigation }) {
         <View style={{ position: 'absolute', bottom: 0 }}>
           <Text style={{ width: 250, height: 100, fontSize: 30, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>THE FUTURE OF RUNNING</Text>
           <Text style={{ width: 220, height: 130, fontSize: 18, marginTop: 1, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>adidas 4DFWD. Đổi mới chuyển động tiến bước. Mãi mãi.</Text>
-          <button style={{ width: 150, height: 40, marginLeft: 9 }}>aaaa </button>
+          <button style={{ width: 150, height: 40, marginLeft: 9 }}
+            onPress={() =>
+              this.props.navigation.navigate('ProductAll')
+            }>Detail Product </button>
+          <Button
+            title="Go to Profile"
+            onPress={() => this.props.navigation.navigate('ProductAll')}
+          />
           <button style={{ width: 150, height: 40, marginLeft: 9, marginTop: 10 }}>aaaa </button>
         </View>
-
-
       </View>
 
       <View>

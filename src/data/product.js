@@ -1,37 +1,71 @@
-import img11 from '../../assets/product_01.png'
-import img12 from '../../assets/product_02.png'
-import img13 from '../../assets/product_03.png'
-import img14 from '../../assets/product_04.png'
-import img15 from '../../assets/product_05.png'
-import img16 from '../../assets/product_06.png'
-import img17 from '../../assets/product_07.png'
-import img18 from '../../assets/product_08.png'
-import img19 from '../../assets/product_09.png'
-import img20 from '../../assets/product_10.png'
-import img21 from '../../assets/product_11.png'
-import img22 from '../../assets/product_12.png'
+import img11 from '../../assets/sport_01.webp'
+import img12 from '../../assets/sport_02.webp'
+import img13 from '../../assets/sport_03.webp'
+import img14 from '../../assets/sport_04.webp'
+import img15 from '../../assets/sport_05.webp'
+import img16 from '../../assets/sport_06.webp'
+import img17 from '../../assets/sport_07.webp'
+import img18 from '../../assets/sport_08.webp'
+import img19 from '../../assets/sport_09.webp'
+import img20 from '../../assets/running_01.webp'
+import img21 from '../../assets/running_02.jpg'
+import img22 from '../../assets/running_03.webp'
 import img23 from '../../assets/new1.jpg'
 import img24 from '../../assets/new2.jpg'
 import img25 from '../../assets/new3.webp'
 import img26 from '../../assets/new4.webp'
 import img27 from '../../assets/new5.webp'
 import img28 from '../../assets/new6.jpg'
+import img29 from '../../assets/sport_10.webp'
+import img30 from '../../assets/sport_11.webp'
+import img31 from '../../assets/sport_12.webp'
+import img32 from '../../assets/sport_13.webp'
+import img33 from '../../assets/sport_14.webp'
+import img34 from '../../assets/sport_15.webp'
+import img35 from '../../assets/sport_16.webp'
+import img36 from '../../assets/sport_17.webp'
+import img37 from '../../assets/sport_18.webp'
+import img38 from '../../assets/sport_19.webp'
+import img39 from '../../assets/sport_19.webp'
+import img40 from '../../assets/sport_19.webp'
+import img41 from '../../assets/sport_19.webp'
+import img42 from '../../assets/sport_19.webp'
+import img43 from '../../assets/sport_19.webp'
+import img44 from '../../assets/sport_19.webp'
+import img45 from '../../assets/sport_19.webp'
+import img46 from '../../assets/sport_19.webp'
+import img47 from '../../assets/sport_19.webp'
+import img48 from '../../assets/sport_19.webp'
+import img49 from '../../assets/sport_19.webp'
+import img50 from '../../assets/sport_19.webp'
+import img51 from '../../assets/running_04.webp'
+import img52 from '../../assets/running_05.webp'
+import img53 from '../../assets/running_06.webp'
+import img54 from '../../assets/running_07.webp'
+import img55 from '../../assets/running_08.webp'
+import img56 from '../../assets/running_09.webp'
+import img57 from '../../assets/running_10.webp'
+import img58 from '../../assets/running_11.webp'
+import img59 from '../../assets/running_12.webp'
+import img60 from '../../assets/running_13.webp'
+
+
 
 
 export const dummyData =
     [
         {
             "id": 0,
-            "name": "Giày sport A123",
+            "name": "GIÀY SPEEDFLOW.3",
             "image": img11,
-            "price": 40000,
-            "owner": "Tocotoco",
+            "price": 1300000,
+            "owner": "Core Black / Cloud White / Vivid Red",
             "ice": [
                 "Tat",
                 "Gang",
                 "Bong",
                 "70%",
-                "100%"
+                "100%",
             ],
             "size": [
                 "5.5",
@@ -54,14 +88,14 @@ export const dummyData =
                 "15",
                 "15.5",
             ],
-            "description": "viec cua trieu"
+            "description": "ĐÔI GIÀY ĐÁ BÓNG SIÊU NHẸ DÀNH CHO PHIÊN BẢN TỐC ĐỘ CỦA BẠN.Quan sát, đọc tình huống rồi dứt điểm. Và lặp lại. Khi tinh thần nhạy bén hòa hợp cùng sự nhanh nhẹn của cơ thể, bạn sẽ trở thành phiên bản nhanh nhất của chính mình. Hãy kiếm tìm nhịp điệu của bạn và bỏ lại mọi thứ phía sau. Thân giày Speedskin trong mờ của đôi giày bóng đá adidas X này giúp bạn luôn thoải mái khi bùng nổ sức mạnh chiến đấu. Bên dưới là đế ngoài bằng TPU giúp bạn bứt tốc trên mặt sân cỏ tự nhiên. Thiết kế ôm chân vừa vặn giúp bạn vững vàng trong các pha đổi hướng và xoay người để luôn nhanh hơn một bước.",
         },
         {
             "id": 1,
-            "name": "Giày sport A123",
+            "name": "GIÀY SPEEDFLOW.3 FIRM GROUND",
             "image": img12,
-            "price": 30000,
-            "owner": "Tocotoco",
+            "price": 1900000,
+            "owner": "Cloud White / Legacy Indigo / Hi-Res Blue",
             "ice": [
                 "0%",
                 "30%",
@@ -90,14 +124,14 @@ export const dummyData =
                 "15",
                 "15.5",
             ],
-            "description": "viec cua trieu"
+            "description": "SẴN SÀNG VÀO TRẬN VỚI ĐÔI GIÀY ĐÁ BÓNG SIÊU NHẸ DÀNH CHO SÂN CỎ TỰ NHIÊN NÀY. Khi bản năng nhạy bén hòa cùng tốc độ thần sầu thì sân cỏ chính là sân khấu của bạn. Hãy tìm cho mình cảm giác bóng với adidas X. Đôi giày này cho bạn cảm giác nhẹ nhàng và thoải mái với thân giày Speedskin mềm mại và tối giản. Kết cấu bên trong co giãn như một đôi tất giúp cố định đôi chân bạn. Bên dưới là đế ngoài phù hợp với sân cỏ tự nhiên đảm bảo bạn luôn đón đầu từng pha bóng."
         },
         {
             "id": 2,
-            "name": "Giày sport A123",
+            "name": "GIÀY PREDATOR EDGE.3 TURF",
             "image": img13,
-            "price": 30000,
-            "owner": "Ding Tea",
+            "price": 3000000,
+            "owner": "Cloud White / Hi-Res Blue / Cloud White",
             "ice": [
                 "0%",
                 "30%",
@@ -126,14 +160,14 @@ export const dummyData =
                 "15",
                 "15.5",
             ],
-            "description": "viec cua trieu"
+            "description": "ĐÔI GIÀY ĐÁ BÓNG CỔ THẤP, TĂNG CƯỜNG KHẢ NĂNG KIỂM SOÁT ĐỂ CHIẾM LĨNH CÁC TRẬN ĐẤU TRÊN SÂN CỎ NHÂN TẠO.Bước vào sân với tường rào bao quanh, với ai đó, họ sẽ chỉ thấy toàn là giới hạn. Còn bạn lại thấy vô vàn khả năng. Vì cuộc đời bạn là để làm nên những điều phi thường. Hãy xoay chuyển thế trận với adidas Predator. Thân giày với vùng Control Zone có các khu vực vân bám được bố trí chiến lược, giúp đôi giày đá bóng này dễ dàng chế ngự trái bóng. Cổ giày thấp nâng đỡ và đế ngoài bằng cao su có đinh bám, giúp bạn làm chủ cuộc chơi trên sân cỏ nhân tạo."
         },
         {
             "id": 3,
-            "name": "Giày sport A123",
+            "name": "GIÀY PREDATOR FREAK.3",
             "image": img14,
-            "price": 30000,
-            "owner": "Fly Tea",
+            "price": 750000,
+            "owner": "Cloud White / Iron Metallic / Solar Red",
             "ice": [
                 "0%",
                 "30%",
@@ -162,14 +196,14 @@ export const dummyData =
                 "15",
                 "15.5",
             ],
-            "description": "Trà sữa bạc hà là một trong số đó, thậm chí đồ uống này còn xuất hiện trong menu của hầu hết các thương hiệu trà sữa nổi tiếng và được khách hàng gọi thường xuyên. "
+            "description": "ĐÔI GIÀY BÓNG ĐÁ CỔ LỬNG GIÚP BẠN LÀM CHỦ TRẬN ĐẤU TRÊN SÂN CỎ TỰ NHIÊN. Mỗi khi vượt qua đường biên trắng là bạn bước vào một thế giới hoàn toàn mới. Một thực tại song song nơi bạn có toàn quyền quyết định. Sân bóng thuộc quyền kiểm soát của bạn. Bung tỏa nội lực dữ dội trong bạn với đôi giày adidas Predator. Thân giày bằng chất liệu tổng hợp mềm mại giúp đôi giày bóng đá thiếu niên này luôn thoải mái và bền chắc. Thiết kế cổ lửng nâng đỡ cổ chân. Các chi tiết Demonscale in 3D phủ rộng tạo độ bám bóng giúp bạn luôn kiểm soát tốt trong mọi trận đấu."
         },
         {
             "id": 4,
-            "name": "Giày sport A123",
+            "name": "GIÀY PREDATOR EDGE.3 TURF",
             "image": img15,
-            "price": 30000,
-            "owner": "Fly Tea",
+            "price": 1630000,
+            "owner": "Core Black / Cloud White / Vivid Red",
             "ice": [
                 "0%",
                 "30%",
@@ -198,16 +232,520 @@ export const dummyData =
                 "15",
                 "15.5",
             ],
-            "description": "Nước chanh là một loại nước giải khát quen thuộc đối với mọi người. Ngoài những công dụng có lợi cho sức khỏe thì nước chanh cũng có những mặt hạn chế ảnh hưởng đến cơ thể mà chúng ta hay hiểu lầm và mắc phải."
-        }
+            "description": "ĐÔI GIÀY ĐÁ BÓNG TĂNG CƯỜNG KHẢ NĂNG KIỂM SOÁT BÓNG, CÓ SỬ DỤNG THÀNH PHẦN TÁI CHẾ. Bước vào sân với tường rào bao quanh, với ai đó, họ sẽ chỉ thấy toàn là giới hạn. Còn bạn lại thấy vô vàn khả năng. Vì cuộc đời bạn là để làm nên những điều phi thường. Hãy xoay chuyển thế trận với adidas Predator. Thân giày với vùng Control Zone có các khu vực vân bám được bố trí chiến lược, giúp đôi giày đá bóng này dễ dàng chế ngự trái bóng. Cổ giày nâng đỡ và đế ngoài bằng cao su có đinh bám, giúp bạn làm chủ cuộc chơi trên sân cỏ nhân tạo. Sản phẩm này có sử dụng thành phần tái chế từ rác thải sản xuất, chẳng hạn như vật liệu cắt bỏ, cũng như rác thải sinh hoạt sau tiêu dùng, nhằm giảm thiểu tác động môi trường do sử dụng thành phần nguyên sinh trong sản xuất."
+        },
+        {
+            "id": 5,
+            "name": "GIÀY CỔ LỬNG FORUM",
+            "image": img16,
+            "price": 3000000,
+            "owner": "Cloud White / Royal Blue / Cloud White",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY TRAINER CỔ LỬNG SANG TRỌNG MANG ĐẬM CHẤT BÓNG RỔ. Cùng dành một phút giây để tôn vinh một biểu tượng. Phải chăng là huyền thoại bóng rổ thách thức trọng lực từ thập niên 80? Hay chính là đôi giày lừng danh điểm trang đôi chân các rapper? Thực ra là cả hai. Dòng giày adidas Forum vẫn luôn thống trị sân bóng rổ cũng như đường phố, nay trở lại với phiên bản cổ lửng giúp đưa các chuyển động của bạn lên một tầm cao mới. Cho đôi chân phong cách không thể hòa lẫn cùng chất liệu da phủ sang trọng và thể hiện đẳng cấp.",
+        },
+        {
+            "id": 6,
+            "name": "GIÀY DAME 8",
+            "image": img17,
+            "price": 3200000,
+            "owner": "Energy Aqua / Core Black / Team Shock Pink",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY SIGNATURE HỢP TÁC THIẾT KẾ CÙNG DAMIAN LILLARD, CÓ SỬ DỤNG THÀNH PHẦN TÁI CHẾ.Tôn trọng tuyệt đối. Damian Lillard đã làm nên tên tuổi nhờ ra tay vào đúng những khoảnh khắc then chốt, ở những tình huống ngàn cân treo sợi tóc. Đôi giày signature kết hợp giữa adidas Basketball và Dame này tôn vinh một trong những cầu thủ dứt điểm xuất sắc nhất trong làng bóng rổ, với họa tiết graphic Dame và thân giày đầy màu sắc lấy cảm hứng từ lần đầu tiên anh thi đấu và đánh bại một số cầu thủ bóng rổ xuất sắc nhất thế giới. Đế ngoài và đế giữa Bounce Pro có thiết kế mô phỏng lối chơi thần tốc và chuẩn xác đến mức hủy diệt của Dame. Sản phẩm này có sử dụng thành phần tái chế từ rác thải sản xuất, chẳng hạn như vật liệu cắt bỏ, cũng như rác thải sinh hoạt sau tiêu dùng, nhằm giảm thiểu tác động môi trường do sử dụng thành phần nguyên sinh trong sản xuất.",
+        },
+        {
+            "id": 7,
+            "name": "GIÀY DAME 8",
+            "image": img18,
+            "price": 3200000,
+            "owner": "Blue Rush / Pulse Mint / Solar Pink",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY SIGNATURE HỢP TÁC THIẾT KẾ CÙNG DAMIAN LILLARD, CÓ SỬ DỤNG THÀNH PHẦN TÁI CHẾ. Trận đấu càng quan trọng, dấu ấn lịch sử mà cầu thủ để lại càng ấn tượng hơn. Không ai có được những giây phút xuất thần như thế giống như Damian Lillard. Đôi giày signature từ Dame và adidas Basketball này tôn vinh hành trình lịch sử đã giúp anh trở thành một trong những cầu thủ tấn công đáng sợ nhất của làng bóng rổ. Thiết kế độc đáo trên thân giày giống như quả bong bóng, còn đế ngoài và đế giữa Bounce Pro được thiết kế đặc biệt để phát huy tối ưu tốc độ, kỹ năng và sự chính xác của Dame.  Sản phẩm này có sử dụng thành phần tái chế từ rác thải sản xuất, chẳng hạn như vật liệu cắt bỏ, cũng như rác thải sinh hoạt sau tiêu dùng, nhằm giảm thiểu tác động môi trường do sử dụng thành phần nguyên sinh trong sản xuất.",
+        },
+        {
+            "id": 8,
+            "name": "GIÀY HARDEN VOL. 6",
+            "image": img19,
+            "price": 1300000,
+            "owner": "Magic Lilac / Matte Silver / Pulse Amber",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY BÓNG RỔ JAMES HARDEN CÓ SỬ DỤNG THÀNH PHẦN TÁI CHẾ.Hãy tấn công khi đối thủ ít phòng bị nhất. Dẫn bóng tới rổ, nhảy ném bất ngờ và qua mặt hậu vệ — hệt như James Harden. Đế giữa Boost hoàn trả năng lượng cần thiết, từ lúc tiếng còi khai cuộc cất lên tới tận giây phút bù giờ cam go cuối cùng. Dây đai ở phần mũi giày và gót giày mang lại cảm giác cố định chắc chắn trong suốt trận đấu.",
+        },
+        {
+            "id": 9,
+            "name": "GIÀY D.O.N. ISSUE #3",
+            "image": img29,
+            "price": 3000000,
+            "owner": "Light Pink / Clear Pink / Team Colleg Purple",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY MỚI NHẤT ĐẾN TỪ ADIDAS BASKETBALL VÀ DONOVAN MITCHELL Đôi giày sneaker signature thứ ba đến từ Donovan Mitchell cùng adidas Basketball tôn vinh hành trình của Spida trở thành một trong những cầu thủ bóng rổ xuất sắc nhất. Giày D.O.N. Issue #3 tôn vinh những dấu mốc trên con đường kiếm tìm sự vĩ đại của Donovan. Từ ước mơ thuở nhỏ vươn tầm siêu sao, đôi giày này ghi dấu hành trình vươn lên đỉnh cao của Donovan Mitchell. Sắc hồng độc đáo lấy cảm hứng từ bóng chày (tình yêu đầu của Donovan) và kẹo cao su, hình ảnh gắn liền với các cầu thủ bóng chày.Sản phẩm này có sử dụng thành phần tái chế từ rác thải sản xuất, chẳng hạn như vật liệu cắt bỏ, cũng như rác thải sinh hoạt sau tiêu dùng, nhằm giảm thiểu tác động môi trường do sử dụng thành phần nguyên sinh trong sản xuất.",
+        },
+        {
+            "id": 10,
+            "name": "GIÀY FORUM 84 LOW",
+            "image": img30,
+            "price": 1400000,
+            "owner": "Wonder White / Cream White / Cloud White",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "CẢM HỨNG SÁNG TẠO DÂNG TRÀN TRÊN ĐÔI GIÀY TRAINER PHIÊN BẢN MỚI NÀY. Đúng chất nguyên bản. Hướng tới tương lai. Khi bạn là chính mình, bạn đặt nền tảng cho tinh thần sáng tạo và biểu đạt bản thân. Đôi giày adidas này cải biên kiểu dáng kinh điển với bề mặt và tinh thần mới, tôn vinh những ý tưởng khác biệt.Sản phẩm này có sử dụng chất liệu tái chế, là một phần quyết tâm của chúng tôi hướng tới chấm dứt rác thải nhựa. 20% thân giày làm từ chất liệu có chứa tối thiểu 50% thành phần tái chế.",
+        },
+        {
+            "id": 11,
+            "name": "GIÀY FORUM MIDID PARLEY",
+            "image": img31,
+            "price": 3300000,
+            "owner": "Cloud White / Off White / Core Black",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "LÀ THÀNH QUẢ HỢP TÁC VỚI TỔ CHỨC PARLEY FOR THE OCEANS, MẪU GIÀY NÀY CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ. Nếu nỗ lực, chúng ta có thể làm nên thay đổi. Đó là lý do chúng tôi hợp tác với tổ chức Parley for the Oceans để tạo nên đôi giày adidas Forum này — để nhắc nhở tất cả chúng ta đều là một phần trong hành trình chấm dứt rác thải nhựa. Biểu tượng này đổi mới từ những yếu tố kinh điển mà bạn hằng ao ước: đai bảo vệ mắt cá chân đặc trưng, chi tiết hình chữ X và cảm hứng bóng rổ ngập tràn.Hãy thay đổi và hành động. Truy cập website của Parley for the Oceans để tìm hiểu thêm, đăng ký và tham gia vào hành trình này tại adidas.com/parley.Làm từ một nhóm chất liệu tái chế, thân giày có chứa ít nhất 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa.",
+        },
+        {
+            "id": 12,
+            "name": "GIÀY FORUM LOW",
+            "image": img32,
+            "price": 1450000,
+            "owner": "Cloud White / Light Purple / Magic Lilac",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY KHƠI NGUỒN CẢM HỨNG MẠNH MẼ, CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ. Hãy cứ mơ lớn. Với bạn, không có gì là giới hạn. Hãy lan tỏa nguồn năng lượng tích cực mỗi khi bạn mang đôi giày thiếu niên adidas Forum Low này. Ra đời trên sân bóng rổ vào thập niên 80, đôi giày này nâng tầm phong cách của bạn nhờ những biểu tượng mới mẻ. 3 Sọc phối màu gradient tươi tắn cùng hiệu ứng chuyển màu táo bạo giúp bạn trở nên nổi bật. Và viết nên hành trình tiếp theo.Làm từ một nhóm chất liệu tái chế, thân giày có chứa tối thiểu 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa.",
+        },
+        {
+            "id": 13,
+            "name": "GIÀY BREAKNET",
+            "image": img33,
+            "price": 1600000,
+            "owner": "Cloud White / Core Black / Silver Metallic",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY PHONG CÁCH TENNIS VỚI THÂN GIÀY BẰNG CHẤT LIỆU TỔNG HỢP ĐẬM CHẤT CLASSIC. Tránh mắc lỗi chân cả ở trong và ngoài sân đấu với đôi giày phong cách tennis này. Đôi giày adidas này có thân giày 3 Sọc classic cho diện mạo kinh điển. Giày có thiết kế thoải mái với lót giày mềm mại và lớp lót bằng vải dệt.",
+        },
+        {
+            "id": 14,
+            "name": "GIÀY HARDEN STEPBACK 3",
+            "image": img34,
+            "price": 1750000,
+            "owner": "Green Oxide / Beam Orange / Off White",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY BÓNG RỔ JAMES HARDEN NGẬP TRÀN PHONG CÁCH. Không có thứ vũ khí nào đáng sợ hơn cú step-back trong những trận đấu bóng rổ hiện đại, và không một ai làm được điều này tốt hơn James Harden. Đôi giày signature adidas này tôn vinh lối chơi sáng tạo của anh trên sân bóng rổ. Đế giữa Bounce đàn hồi mang đến cảm giác thoải mái trên từng sải bước, bất kể bạn đang rèn luyện kỹ năng xử lý bóng hay ném bóng từ khoảng cách xa. Lỗ xỏ dây giày bố trí hợp lý kết hợp cùng dây buộc và gót giày đúc cho cảm giác cố định.",
+        },
+        {
+            "id": 15,
+            "name": "GIÀY OZELLE LIFESTYLE RUNNING CLOUDFOAM",
+            "image": img35,
+            "price": 1800000,
+            "owner": "Aluminium / Wonder White / Gum",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY SNEAKER PHONG CÁCH CHẠY BỘ VÀ ĐẬM CHẤT TƯƠNG LAI, CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ.Đôi giày chạy bộ adidas này gợi nhớ về thập niên 90. Và đồng thời chạy hết tốc lực hướng tới tương lai. Các đường nét thiết kế dày dặn và đế ngoài cứng cáp kết hợp với đế giữa Cloudfoam mềm mại tăng thêm độ đàn hồi cho bước chạy của bạn. Kiểu dáng thể thao classic được nâng tầm nhờ sự kết hợp đa dạng các chất liệu trên thân giày. Bay cao. Bay xa. Bay nhảy khắp mọi nơi với đôi giày sneaker này.Làm từ một nhóm chất liệu tái chế, thân giày có chứa tối thiểu 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa.",
+        },
+        {
+            "id": 16,
+            "name": "GIÀY TENNIS BARRICADE",
+            "image": img36,
+            "price": 3800000,
+            "owner": "Blue Tint / Blue Rush / Cloud White",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY SÂN CỨNG NÂNG ĐỠ CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ.Thể hiện bản sắc của bạn. Đồng hành cùng các vận động viên của adidas tại giải đấu hàng đầu vùng nam bán cầu, đôi giày tennis này nằm trong một bộ sưu tập rực rỡ nhằm nêu bật những hậu quả của biến đổi khí hậu. Hệ thống dây giày tiện dụng kết hợp cùng các vùng Sensepod lấp đầy mọi khoảng trống ở gót giày giúp đôi chân bạn hòa làm một cùng đôi giày. Bên dưới là đế giữa Bounce êm ái và phần shank bằng TPU giữa bàn chân mang lại sự thoải mái và ổn định.",
+        },
+        {
+            "id": 17,
+            "name": "GIÀY TENNIS BARRICADE",
+            "image": img37,
+            "price": 3700000,
+            "owner": "Ecru Tint / Beam Yellow / Almost Yellow",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY SÂN CỨNG NÂNG ĐỠ CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ. Thể hiện bản sắc của bạn. Đồng hành cùng các vận động viên của adidas tại giải đấu hàng đầu vùng nam bán cầu, đôi giày tennis này nằm trong một bộ sưu tập rực rỡ nhằm nêu bật những hậu quả của biến đổi khí hậu. Hệ thống dây giày tiện dụng kết hợp cùng các vùng Sensepod lấp đầy mọi khoảng trống ở gót giày giúp đôi chân bạn hòa làm một cùng đôi giày. Bên dưới là đế giữa Bounce êm ái và phần shank bằng TPU giữa bàn chân mang lại sự thoải mái và ổn định.",
+        },
+        {
+            "id": 18,
+            "name": "GIÀY TENNIS ADIZERO UBERSONIC 4",
+            "image": img38,
+            "price": 3800000,
+            "owner": "Off White / Cloud White / Beam Orange",
+            "ice": [
+                "Tat",
+                "Gang",
+                "Bong",
+                "70%",
+                "100%",
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY TENNIS CÙNG BẠN BỨT TỐC, LÀM TỪ SỢI PARLEY FOR THE OCEANS.Vung vợt vì đại dương. Nằm trong bộ sưu tập adidas dành cho giải đấu sân cỏ tiếng tăm nhất thế giới, đôi giày tennis Adizero Ubersonic 4 này nâng cao nhận thức về rác thải nhựa. Với thiết kế chú trọng tốc độ, thân giày bằng vải lưới siêu nhẹ, ôm khít và được gia cố từ bên trong để tăng cường ổn định khi di chuyển sang bên và trượt cứu bóng. Bên dưới là đế giữa Lightstrike cho cảm giác sát đất giúp bạn trình diễn những pha bóng tài tình.Hãy thay đổi và hành động. Truy cập website của Parley for the Oceans để tìm hiểu thêm, đăng ký và tham gia vào hành trình này tại adidas.com/parley.Thân giày làm từ loại sợi hiệu năng cao có chứa tối thiểu 50% chất liệu Parley Ocean Plastic — rác thải nhựa tái chế thu gom từ các vùng đảo xa, bãi biển, khu dân cư ven biển và đường bờ biển, nhằm ngăn chặn ô nhiễm đại dương. 50% thành phần còn lại của sợi dệt là polyester tái chế.",
+        },
     ]
 export const dummyData2 =
     [
         {
             "id": 0,
-            "name": "Giày sport A123",
+            "name": "giay",
             "image": img23,
-            "price": 40000,
+            "price": 3400000,
             "owner": "Tocotoco",
             "ice": [
                 "0%",
@@ -237,7 +775,7 @@ export const dummyData2 =
                 "15",
                 "15.5",
             ],
-            "description": "viec cua trieu"
+            "description": ""
         },
         {
             "id": 1,
@@ -317,10 +855,10 @@ export const dummyData3 =
     [
         {
             "id": 0,
-            "name": "Giày sport A123",
+            "name": "Giày ADIDAS",
             "image": img20,
-            "price": 40000,
-            "owner": "Tocotoco",
+            "price": 3400000,
+            "owner": "Cloud White / Core Black / Solar Green",
             "ice": [
                 "0%",
                 "30%",
@@ -349,14 +887,14 @@ export const dummyData3 =
                 "15",
                 "15.5",
             ],
-            "description": "viec cua trieu"
+            "description": "ADISTAR. DÀNH CHO CHẠY ĐƯỜNG DÀI TỐC ĐỘ CHẬM. Đôi giày chạy bộ đường trường lấy cảm hứng từ động cơ vĩnh cửu và đã được thử nghiệm trên hơn 4.500 km. Công nghệ Adistar kết hợp giữa mút xốp REPETITOR siêu nhẹ và mềm mại với mút xốp REPETITOR + cứng cáp hơn để tạo nên đế giữa mật độ kép. Gót giày làm từ 15% nhựa EVA tái chế tạo nên kết cấu cứng cáp hơn giúp bảo vệ và ổn định bàn chân khi tiếp đất bằng gót chân. Lực đẩy về phía trước được tăng cường nhờ hình dáng mô phỏng đòn bẩy cũng như độ dày chênh lệch 6mm giữa gót giày và mũi giày. Tiếp đất nhẹ nhàng và tiến bước mạnh mẽ với đôi giày chạy bộ đường dài."
         },
         {
             "id": 1,
-            "name": "Giày sport A123",
+            "name": "GIÀY SOLARGLIDE 5",
             "image": img21,
-            "price": 30000,
-            "owner": "Tocotoco",
+            "price": 3400000,
+            "owner": "Cloud White / Solar Red / Core Black",
             "ice": [
                 "0%",
                 "30%",
@@ -385,14 +923,14 @@ export const dummyData3 =
                 "15",
                 "15.5",
             ],
-            "description": "viec cua trieu"
+            "description": "SOLARGLIDE 5, ĐÔI GIÀY ĐA NĂNG THƯỜNG NGÀY VỚI KHẢ NĂNG HOÀN TRẢ NĂNG LƯỢNG TUYỆT VỜI.Bất kể bạn đang cải thiện sức bền, tăng cường cự ly hay hướng tới kỷ lục cá nhân mới, đôi giày Solarglide 5 sẽ là lựa chọn hàng đầu giúp bạn chinh phục mục tiêu mỗi ngày. Giày sở hữu một loạt các công nghệ tăng cường hiệu năng, từ đế giữa BOOST tới thân giày bằng vải dệt kim và hệ thống adidas LEP 2.0. Thân giày làm từ loại sợi hiệu năng cao có chứa tối thiểu 50% chất liệu Parley Ocean Plastic — rác thải nhựa tái chế thu gom từ các vùng đảo xa, bãi biển, khu dân cư ven biển và đường bờ biển, nhằm ngăn chặn ô nhiễm đại dương."
         },
         {
             "id": 2,
-            "name": "Giày sport A123",
+            "name": "GIÀY ULTRABOOST",
             "image": img22,
-            "price": 30000,
-            "owner": "Ding Tea",
+            "price": 3000000,
+            "owner": "Off White / Legend Ink / Ecru Tint",
             "ice": [
                 "0%",
                 "30%",
@@ -421,14 +959,376 @@ export const dummyData3 =
                 "15",
                 "15.5",
             ],
-            "description": "viec cua trieu"
-        }
+            "description": "ĐÔI GIÀY SIÊU ĐÀN HỒI CÓ SỬ DỤNG SỢI PARLEY OCEAN PLASTIC.Khi ra mắt lần đầu vào năm 2015, Ultraboost đã gây bão trong giới sneaker. Và hệt như một runner bứt phá kỷ lục cá nhân, chúng tôi không ngừng phát triển thiết kế ấy. Đôi giày chạy bộ adidas này tích hợp công nghệ 3D Stretchweb quanh đế giữa BOOST. Thiết kế này tăng cường cảm giác hoản trả năng lượng, giúp bạn cảm thấy sung sức suốt cả ngày. Thêm vào đó là thân giày adidas PRIMEKNIT, vậy là bạn đã có một đôi giày thoải mái dành cho chạy bộ cự ly ngắn cũng như di chuyển hàng ngày."
+        },
+        {
+            "id": 3,
+            "name": "GIÀY LITE RACER 3.0",
+            "image": img51,
+            "price": 1600000,
+            "owner": "Cloud White / Royal Blue / Cloud White",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY PHONG CÁCH CHẠY BỘ CHO PHONG CÁCH VÀ CẢM GIÁC THOẢI MÁI MỖI NGÀY.Đi lại là một phần thiết yếu trong cuộc sống hàng ngày. Cảm giác thoải mái cũng nên như vậy. Tận hưởng từng sải bước với đôi giày adidas này. Lấy cảm hứng từ giày chạy bộ classic, đôi giày này có lớp đệm Cloudfoam êm ái và kiểu dáng ôm vừa khít. Thêm vào đó là phong cách 3 Sọc. Bạn đâu cần thêm đôi giày nào khác?"
+        },
+        {
+            "id": 4,
+            "name": "GIÀY ADIZERO TAKUMI SEN 8",
+            "image": img52,
+            "price": 5000000,
+            "owner": "Dash Grey / Solar Orange / Pulse Lilac",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY CHẠY BỘ SIÊU NHẠY BÉN CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ. Giờ thi đấu đã điểm, và đã đến lúc để khai phá tốc độ. Chinh phục tốc độ nhanh nhất của bạn với đôi giày chạy bộ adidas dành cho các chặng đua đường trường từ 5K tới bán marathon. Lớp đệm Lightstrike Pro trợ lực cho sải bước của bạn, đồng thời các thanh năng lượng ENERGYRODS mang lại cảm giác chắc chắn cho bước chạy gọn ghẽ. Thân giày cho cảm giác nhẹ như không — nhờ đó không gì có thể cản bước bạn.Làm từ một nhóm chất liệu tái chế, thân giày có chứa ít nhất 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa."
+        },
+        {
+            "id": 5,
+            "name": "GIÀY ULTRABOOSTGIÀY X9000 KARLIE KLOSS",
+            "image": img53,
+            "price": 1900000,
+            "owner": "Core Black / Core Black / Core Black",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY CHẠY BỘ ĐA NĂNG, NÂNG ĐỠ HỢP TÁC THIẾT KẾ CÙNG KARLIE KLOSS.Dù tâm trí cố gắng kìm hãm bạn. Nhưng đôi chân sẽ giúp bạn giải phóng. Là thành quả hợp tác với Karlie Kloss, đôi giày chạy bộ adidas này có vẻ ngoài táo bạo cho bạn thêm động lực để mang giày và rời nhà vào buổi sáng. Lớp đệm Boost duy trì động lực ấy, với mỗi cú cất bước và chạm đất hoàn trả năng lượng đầy thoải mái. Sản phẩm này có sử dụng chất liệu tái chế, là một phần cam kết của chúng tôi hướng tới chấm dứt rác thải nhựa. 20% thân giày làm từ chất liệu có chứa tối thiểu 50% thành phần tái chế."
+        },
+        {
+            "id": 6,
+            "name": "GIÀY X9000L3 W",
+            "image": img54,
+            "price": 3000000,
+            "owner": "Frost Mint / Core Black / Silver Metallic",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY CHẠY BỘ ĐA NĂNG, NÂNG ĐỠ HỢP TÁC THIẾT KẾ CÙNG KARLIE KLOSS.Dù tâm trí cố gắng kìm hãm bạn. Nhưng đôi chân sẽ giúp bạn giải phóng. Là thành quả hợp tác với Karlie Kloss, đôi giày chạy bộ adidas này có vẻ ngoài táo bạo cho bạn thêm động lực để mang giày và rời nhà vào buổi sáng. Lớp đệm Boost duy trì động lực ấy, với mỗi cú cất bước và chạm đất hoàn trả năng lượng đầy thoải mái. Sản phẩm này có sử dụng chất liệu tái chế, là một phần cam kết của chúng tôi hướng tới chấm dứt rác thải nhựa. 20% thân giày làm từ chất liệu có chứa tối thiểu 50% thành phần tái chế."
+        },
+        {
+            "id": 7,
+            "name": "GIÀY RESPONSE",
+            "image": img55,
+            "price": 1500000,
+            "owner": "Frost Mint / Core Black / Silver Metallic",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "TRẢI NGHIỆM CẢM GIÁC ÊM ÁI VÀ ĐÀN HỒI TRÊN TỪNG SẢI BƯỚC.Đôi giày này mang đến cho bạn độ êm ái và đàn hồi cần thiết khi sải bước trên đường chạy hoặc đường địa hình. Bất kể khi bạn đi bộ hàng ngày hay tranh thủ chạy bộ giữa buổi, đế giữa Bounce linh hoạt và đàn hồi trên từng sải bước. Làm từ một nhóm chất liệu tái chế, thân giày có chứa tối thiểu 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa."
+        },
+        {
+            "id": 8,
+            "name": "GIÀY RESPONSE",
+            "image": img56,
+            "price": 1600000,
+            "owner": "Core Black / Cloud White / Grey Six",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "TRẢI NGHIỆM CẢM GIÁC ÊM ÁI VÀ ĐÀN HỒI TRÊN TỪNG SẢI BƯỚC.Tận hưởng sự êm ái và đàn hồi trong từng buổi chạy. Đôi giày adidas này mang đến cho bạn cảm giác thoải mái và nâng đỡ cần thiết để chinh phục đường chạy hoặc đường địa hình. Thân giày bằng vải lưới và cổ giày lót đệm cho độ ôm vừa khít, thoải mái. Đệm gót giày đúc Fitcounter tạo cảm giác vừa vặn tự nhiên. Đế giữa Bounce mang lại sự êm ái và linh hoạt cho sải bước tự nhiên và đàn hồi. Làm từ một nhóm chất liệu tái chế, thân giày có chứa tối thiểu 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa."
+        },
+        {
+            "id": 9,
+            "name": "GIÀY QUESTAR",
+            "image": img57,
+            "price": 2200000,
+            "owner": "Shadow Navy / Wonder Steel / Cloud White",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY CHẠY BỘ CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ. Hôm nào cũng là một ngày tuyệt vời để chạy bộ khi bạn mang đôi giày adidas này. Cổ giày lót đệm cho độ ôm vừa vặn và chắc chắn, cùng lớp đệm siêu nhẹ bên dưới tăng thêm độ linh hoạt cho sải bước thoải mái từ lúc bàn chân tiếp đất cho tới khi bật lên. Làm từ một nhóm chất liệu tái chế, thân giày có chứa ít nhất 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa."
+        },
+        {
+            "id": 10,
+            "name": "GIÀY LITE RACER 3.0",
+            "image": img58,
+            "price": 1900000,
+            "owner": "Shadow Maroon / Cloud White / Core Black",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY PHONG CÁCH CHẠY BỘ CHO PHONG CÁCH VÀ CẢM GIÁC THOẢI MÁI MỖI NGÀY. Đi lại là một phần thiết yếu trong cuộc sống hàng ngày. Cảm giác thoải mái cũng nên như vậy. Tận hưởng từng sải bước với đôi giày adidas này. Lấy cảm hứng từ giày chạy bộ classic, đôi giày này có lớp đệm Cloudfoam êm ái và kiểu dáng ôm vừa khít. Thêm vào đó là phong cách 3 Sọc. Bạn đâu cần thêm đôi giày nào khác?"
+        },
+        {
+            "id": 11,
+            "name": "GIÀY ULTRABOOST WEB DNA RUNNING SPORTSWEAR LIFESTYLE",
+            "image": img59,
+            "price": 5000000,
+            "owner": "Legend Ink / Bliss Blue / Beam Pin",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY SIÊU ĐÀN HỒI CÓ SỬ DỤNG SỢI PARLEY OCEAN PLASTIC.Khi ra mắt lần đầu vào năm 2015, Ultraboost đã gây bão trong giới sneaker. Và hệt như một runner bứt phá kỷ lục cá nhân, chúng tôi không ngừng phát triển thiết kế ấy. Đôi giày chạy bộ adidas này tích hợp công nghệ 3D Stretchweb quanh đế giữa BOOST. Thiết kế này tăng cường cảm giác hoản trả năng lượng, giúp bạn cảm thấy sung sức suốt cả ngày. Thêm vào đó là thân giày adidas PRIMEKNIT, vậy là bạn đã có một đôi giày thoải mái dành cho chạy bộ cự ly ngắn cũng như di chuyển hàng ngày."
+        },
+        {
+            "id": 12,
+            "name": "GIÀY TRAINER DROPSET",
+            "image": img60,
+            "price": 3500000,
+            "owner": "Carbon / Core Black / Beam Yellow",
+            "ice": [
+                "0%",
+                "30%",
+                "50%",
+                "70%",
+                "100%"
+            ],
+            "size": [
+                "5.5",
+                "6",
+                "7",
+                "7.5",
+                "8",
+                "8.5",
+                "9",
+                "9.5",
+                "10",
+                "10.5",
+                "11",
+                "11.5",
+                "12",
+                "12.5",
+                "13",
+                "14.5",
+                "14",
+                "15",
+                "15.5",
+            ],
+            "description": "ĐÔI GIÀY TẬP LUYỆN ĐA NĂNG CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ. Chinh phục các bài tập sức mạnh và tập gym không chút do dự. Đôi giày adidas này giúp bạn nâng tầm cuộc chơi. Đế giữa dropset tạo cảm giác tiếp xúc đất, hỗ trợ bạn tập luyện đúng tư thế và tiếp thêm tự tin trong từng động tác. Hai lớp đệm EVA khác nhau mang tới độ ổn định ở gót chân đồng thời tạo cảm giác thoải mái ở mũi chân. Làm từ một loạt chất liệu tái chế, thân giày có chứa tối thiểu 50% thành phần tái chế. Sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa."
+        },
+
+
     ]
 export const dummyData4 =
     [
         {
             "id": 0,
-            "name": "Giày sport A123",
+            "name": "Giày ADIDAS",
             "image": img26,
             "price": 40000,
             "owner": "Tocotoco",
@@ -535,7 +1435,7 @@ export const dummyData4 =
             "description": "viec cua trieu"
         }
     ]
-// export const dummyData5 =
+ //export const dummyData5 =
 //     [
 //         {
 //             "id": 0,

@@ -93,23 +93,13 @@ export default function SignUpScreen({ navigation }) {
         <Image
           style={{
             alignSelf: "center",
-            height: 100,
+            height: 300,
             resizeMode: "contain",
-            width: 100,
+            width: 300,
           }}
-          source={require("../../../assets/Juice.png")}
+          source={require("../../../assets/StoreSport.png")}
         />
-        <Text
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#2FDBBC",
-            fontSize: 25,
-            marginBottom: 50,
-          }}
-        >
-          DrinkApp
-        </Text>
+
         <MainInput
           title={"Họ và tên"}
           placeholder={"Nhập họ và tên"}
