@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         padding: 4,
         borderRadius: 14,
-        flexDirection: "row",
+        // flexDirection: "row",
         marginBottom: 20,
         shadowColor: "#000",
         shadowOffset: {

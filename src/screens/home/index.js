@@ -32,51 +32,41 @@ export default function HomeScreen({ navigation }) {
         marginTop: StatusBar.currentHeight + 10,
       }}
     >
+      <TouchableOpacity onPress={() => { navigation.navigate('ProducAll'); }}>
+        <View >
+          <video id="video3"
+            src={video3}
+            autoPlay={"autoplay"}
+            preLoad="auto"
+            muted
+            loops
+            style={{ width: '100%', zIndex: -100, height: 600, resizeMode: 'cover' }}
+          > something</video>
 
-      <View >
-        <video id="video3"
-          src={video3}
-          autoPlay={"autoplay"}
-          preLoad="auto"
-          muted
-          loops
-          style={{ width: '100%', zIndex: -100, height: 600, resizeMode: 'cover' }}
-        > something</video>
-
-        <View style={{ position: 'absolute', bottom: 0 }}>
-          <Text style={{ width: 250, height: 100, fontSize: 30, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>THE FUTURE OF RUNNING</Text>
-          <Text style={{ width: 220, height: 130, fontSize: 18, marginTop: 1, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>adidas 4DFWD. Đổi mới chuyển động tiến bước. Mãi mãi.</Text>
-          <button style={{ width: 150, height: 40, marginLeft: 9 }}
-            onPress={() =>
-              this.props.navigation.navigate('ProductAll')
-            }>Detail Product </button>
-          <Button
-            title="Go to Profile"
-            onPress={() => this.props.navigation.navigate('ProductAll')}
-          />
-          <button style={{ width: 150, height: 40, marginLeft: 9, marginTop: 10 }}>aaaa </button>
+          <View style={{ position: 'absolute', bottom: 0 }}>
+            <Text style={{ width: 250, height: 100, fontSize: 30, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>THE FUTURE OF RUNNING</Text>
+            <Text style={{ width: 220, height: 130, fontSize: 18, marginTop: 1, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>adidas 4DFWD. Đổi mới chuyển động tiến bước. Mãi mãi.</Text>
+          </View>
         </View>
-      </View>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => { navigation.navigate('ProducAll'); }}>
+        <View>
+          <video id="video3"
+            src={video9}
+            autoPlay={"autoplay"}
+            preLoad="auto"
+            muted
+            loops
+            style={styles.Views}
+          > something</video>
 
-      <View>
-        <video id="video3"
-          src={video9}
-          autoPlay={"autoplay"}
-          preLoad="auto"
-          muted
-          loops
-          style={styles.Views}
-        > something</video>
+          <View style={{ position: 'absolute', bottom: 0 }}>
+            <Text style={{ width: 250, height: 100, fontSize: 30, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>THE FUTURE OF RUNNING</Text>
+            <Text style={{ width: 220, height: 100, fontSize: 18, marginTop: 1, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>adidas 4DFWD. Đổi mới chuyển động tiến bước. Mãi mãi.</Text>
+          </View>
 
-        <View style={{ position: 'absolute', bottom: 0 }}>
-          <Text style={{ width: 250, height: 100, fontSize: 30, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>THE FUTURE OF RUNNING</Text>
-          <Text style={{ width: 220, height: 100, fontSize: 18, marginTop: 1, fontWeight: 'bold', color: 'white', marginLeft: 9 }}>adidas 4DFWD. Đổi mới chuyển động tiến bước. Mãi mãi.</Text>
-          <button style={{ width: 150, height: 40, marginLeft: 9 }}>aaaa </button>
-          <button style={{ width: 150, height: 40, marginLeft: 9, marginTop: 10 }}>aaaa </button>
         </View>
-
-      </View>
-
+      </TouchableOpacity>
       <Text style={{ width: 220, height: 130, fontSize: 30, marginTop: 10, fontWeight: 'bold' }}>WHO ARE YOU SHOPPING FOR?</Text>
 
 
@@ -84,8 +74,8 @@ export default function HomeScreen({ navigation }) {
       <Carousel data={dummyData2} />
       {/* /Carousel/ */}
 
-      <Text style={{ marginTop: 20, fontSize: 22 }}>{`Chào, ${user && user.name
-        }!`}</Text>
+      {/* <Text style={{ marginTop: 20, fontSize: 22 }}>{`Chào, ${user && user.name
+        }!`}</Text> */}
       <View
         style={{
           backgroundColor: '#67E5CE',
